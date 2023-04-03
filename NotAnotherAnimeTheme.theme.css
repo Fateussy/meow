@@ -55,12 +55,12 @@
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 62px;
+  --server-listing-width: 20px;
 
   /*
     Font Size
   */
-  --font-size: 60%;
+  --font-size: 100;
 
   /*
     Mention colors
@@ -78,7 +78,7 @@
     Change the unread server animation.
     Replace it with "none" in order to remove any animations and use the main color instead
   */
-  --unread-server-animation: rainbow;
+  --unread-server-animation: none;
 
   /*
     Video / Screen share buttons
@@ -183,9 +183,9 @@
     Channel colors
   */
   --text-voice-channel-color: rgb(142, 146, 151);
-  --text-voice-channel-hover-color: #dcddde;
-  --text-voice-channel-selected-text-color: #fff;
-  --unread-text-channel-color: #fff;
+  --text-voice-channel-hover-color: #dadbdc;
+  --text-voice-channel-selected-text-color: #a7a8a9;
+  --unread-text-channel-color: #dcddde;
   --unread-text-channel-bubble-color: var(--main-theme-color);
 
   /*
